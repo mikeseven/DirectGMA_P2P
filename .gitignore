@@ -1,0 +1,12 @@
+*.pdb
+*.exe
+*.suo
+*.lib
+*.exe
+*.dll
+*.obj
+*.tlog
+*.db
+*.iobj
+*.ipdb
+*.log
