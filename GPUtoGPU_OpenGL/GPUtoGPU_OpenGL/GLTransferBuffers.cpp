@@ -211,7 +211,7 @@ bool GLTransferBuffers::createBuffers(unsigned int uiNumBuffers, unsigned int ui
                 memset(m_pBufferMemory[i].pBasePointer, 0, (m_uiBufferSize + 4096));
 
                 // Align memory to 4K boundaries
-                long addr = (long) m_pBufferMemory[i].pBasePointer;
+                size_t addr = (size_t) m_pBufferMemory[i].pBasePointer;
                 m_pBufferMemory[i].pAlignedPointer = (char*)((addr + 4095) & (~0xfff));
             }
 

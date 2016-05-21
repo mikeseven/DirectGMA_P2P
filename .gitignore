@@ -10,3 +10,4 @@
 *.iobj
 *.ipdb
 *.log
+external/glew-1.13.0/build/vc12/tmp/
