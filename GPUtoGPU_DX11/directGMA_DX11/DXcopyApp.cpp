@@ -131,7 +131,7 @@ HRESULT DXcopyApp::Init(HINSTANCE hInstance, int nCmdShow)
 
     // Get the device for the 2nd adapter (if one is present)
 	IDXGIAdapter* adapter2 = NULL;
-    if (2 == g_numAdapters)
+    if (g_numAdapters >= 2)
     {
         adapter2 = vAdapters.at(1);
     }
